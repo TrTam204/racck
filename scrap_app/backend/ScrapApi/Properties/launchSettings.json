@@ -1,0 +1,36 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+
+   
+      "applicationUrl": "http://0.0.0.0:5245",
+
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+
+     
+        "Jwt__Key": "dev_temp_secret_123456_dev_temp_secret_123456",
+        "Jwt__Issuer": "ScrapApi"
+      }
+    },
+
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+
+     
+      "applicationUrl": "http://0.0.0.0:5245",
+
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Jwt__Key": "dev_temp_secret_123456_dev_temp_secret_123456",
+        "Jwt__Issuer": "ScrapApi"
+      }
+    }
+  }
+}
